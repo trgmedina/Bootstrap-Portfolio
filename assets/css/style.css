@@ -85,112 +85,55 @@ a.default_links {
 	background: #fdfdf1;
 }
 
-label {
-	font-family: "Georgia";
-	font-size: 16px;
-	font-weight: bold;
-	color: #600320;
+#main-container {
+  padding-top: 130px;
 }
 
-input {
-	width: 100%;
-	padding: 12px 20px;
-    margin-bottom: 15px;
-    display: inline-block;
-    box-sizing: border-box;
-    border-radius: 4px;
-    outline: none;
+.main-section {
+  margin: 0 0 40px 0;
+  width: 100%;
+  max-width: 650px;
+  float: left;
 }
 
-#fmessage {
-    height: 150px;
-    resize: none;
-    vertical-align: text-top;
+.work {
+  position: relative;
+  width: 274px;
+  overflow: auto;
+  float: left;
+  margin: 20px 0 25px;
 }
 
-button {
-	background-color: #600320; 
-    border: none;
-    color: #e5c1b5;
-    font-weight: bold;
-    font-size: 16px;
-    padding: 15px;
-    width: 150px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+.work:nth-child(even) {
+  margin-right: 40px;
 }
 
-.portfolio_images {
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-bottom: 20px;
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: .8;
 }
 
-#hangman {
-	float: left;
-	padding-bottom: 40px;
-	z-index: 1;
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  margin-bottom: 0;
+  padding: 15px;
+  width: 100%;
+  color: #fdfdf1;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 300;
+  background: #600320;
+  border-bottom: 0;
 }
 
-#rpg_game {
-	float: right;
-	padding-bottom: 40px;
-}
-
-#trivia_game {
-	float: left;
-	padding-bottom: 40px;
-}
-
-#rutgers {
-	float: right;
-	padding-bottom: 40px;
-}
-
-#rps {
-	float: left;
-	padding-bottom: 40px;
-}
-
-figcaption {
-	position: absolute;
-	padding: 20px;
-	background-color: #600320; 
-    border: none;
-    color: #fdfdf1;
-    font-family: "Georgia";
-    font-weight: bold;
-    font-size: 20px;
-    width: 210px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    z-index: 2;
-}
-
-#hangman_label {
-	top: 240px;
-}
-
-#rpg_label {
-	top: 240px;
-	right: 50px;
-}
-
-#triviagame_label {
-	top: 480px;
-	left: 50px;
-}
-
-#rutgers_label {
-	top: 480px;
-	right: 50px;
-}
-
-#rps_label {
-	top: 720px;
-	left: 50px;
+.auth-image {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  float: left;
 }
 
 footer {
@@ -209,11 +152,6 @@ footer {
 	border-top: 3px solid #600320;
 	z-index: 3;
 }
-
-/*.col-md-8 {
-	background: #fdfdf1;
-	border: 3px solid #e5c1b5;
-}*/
 
 .navbar {
 	background: #e5c1b5;
